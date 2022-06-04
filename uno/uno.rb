@@ -4,7 +4,7 @@ class Card
   
     attr_accessor :rank, :suit
     
-    #beskrivning: Denna funktion initierar objekten rank och suit, den validerar även objekten. 
+    #beskrivning: Denna funktion initierar objekten rank och suit, den validerar även argumenten. 
     #argument 1: indexet för ranken, alltså en integer
     #argument 2: indexet för suit, också en integer
     def initialize(rank_i, suit_i)
